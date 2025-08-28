@@ -209,7 +209,7 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
-     int atributo1, atributo2;
+    int atributo1, atributo2;
     int resultado1, resultado2;
 
     printf("Escolha o atributo a ser comparado: \n");
@@ -341,6 +341,7 @@ int main() {
             printf("Carta 2 venceu!\n");
         }
 
+    
 
 
 
