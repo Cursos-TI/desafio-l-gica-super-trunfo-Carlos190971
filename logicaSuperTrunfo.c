@@ -106,6 +106,8 @@ int main() {
         printf("Populacao: %1u\n", populacao2);
         printf("Populacao: Carta 2 Venceu\n");
     }   else {
+        printf("Populacao: %1u\n", populacao1);
+        printf("Populacao: %1u\n", populacao2);
         printf("Populacao: Empatou\n");
     }
 
@@ -121,6 +123,8 @@ int main() {
         printf("Area: %.2f Km²\n", area2);
         printf("Area: Carta 2 Venceu\n");
     }   else {
+        printf("Area: %.2f Km²\n", area1);
+        printf("Area: %.2f Km²\n", area2);
         printf("Area: Empatou\n");
     }
 
@@ -137,6 +141,8 @@ int main() {
         printf("PIB: %.2f Bilhões de reais\n", pib2);
         printf("PIB: Carta 2 Venceu\n");
     }   else {
+        printf("PIB: %.2f Bilhões de reais\n", pib1);
+        printf("PIB: %.2f Bilhões de reais\n", pib2);
         printf("PIB: Empatou\n");
     }
 
@@ -153,6 +159,8 @@ int main() {
         printf("Pontos Turisticos: %d\n", pontos2); 
         printf("Pontos Turisticos: Carta 2 Venceu\n");
     }   else {
+        printf("Pontos Turisticos: %d\n", pontos1); 
+        printf("Pontos Turisticos: %d\n", pontos2);
         printf("Pontos Turisticos: Empatou\n");
     }
 
@@ -160,7 +168,7 @@ int main() {
 
     // Densidade demografica
 
-    if (densidade1 > densidade2) {
+    if (densidade1 < densidade2) {
         printf("Densidade: %.2f  Hab/Km²\n", densidade1);
         printf("Densidade: %.2f  Hab/Km²\n", densidade2);
         printf("Densidade Demografica: carta 1 venceu\n");
@@ -169,6 +177,8 @@ int main() {
         printf("Densidade: %.2f  Hab/Km²\n", densidade2);
         printf("Densidade Demografica: Carta 2 Venceu\n");
     }   else {
+        printf("Densidade: %.2f  Hab/Km²\n", densidade1);
+        printf("Densidade: %.2f  Hab/Km²\n", densidade2);
         printf("Densidade Demografica: Empatou\n");
     }
 
@@ -185,6 +195,8 @@ int main() {
         printf("PIB percapita: %.7f  reais\n", percapita2);
         printf("Renda Per Capita: Carta 2 Venceu\n");
     }   else {
+        printf("PIB percapita: %.7f  reais\n", percapita1);
+        printf("PIB percapita: %.7f  reais\n", percapita2);
         printf("Renda Per Capita: Empatou\n");
     }
     
